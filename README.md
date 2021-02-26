@@ -13,7 +13,7 @@ An open source data gateway.
 - CRUD usage of Stargate
 - Discord Bot (bio, social links, timezone)
 
-## Reproducing locally-
+## Reproducing locally
 - Fork this repo
 - `git clone https://github.com/<your-username>/stargate`
 - `cp .env.example .env`

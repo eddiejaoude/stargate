@@ -7,7 +7,7 @@ An open source data gateway.
 
 **Discord bot using Stargate**
 
-**Technology Used:**
+## Technology Used:
 - TypeScript
 - StarGate
 

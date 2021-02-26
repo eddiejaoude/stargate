@@ -7,6 +7,9 @@ An open source data gateway.
 
 **Discord bot using Stargate**
 
+**Technology Used:**
+- TypeScript
+
 ## Phase 1 Goals
 
 - Video tutorial 5-10min of using Stargate (serverless)

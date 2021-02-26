@@ -12,3 +12,8 @@ An open source data gateway.
 - Video tutorial 5-10min of using Stargate (serverless)
 - CRUD usage of Stargate
 - Discord Bot (bio, social links, timezone)
+
+## Reproducing locally-
+- `git clone https://github.com/eddiejaoude/stargate`
+- `cp .env.example .env`
+- Add the respective env-vars to the .env file

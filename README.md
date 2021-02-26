@@ -17,3 +17,5 @@ An open source data gateway.
 - `git clone https://github.com/eddiejaoude/stargate`
 - `cp .env.example .env`
 - Add the respective env-vars to the .env file
+  - [Generating Discord Bot Token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#keeping-your-token-safe)
+  - [Making AUTH token for StarGate](https://stargate.io/docs/stargate/1.0/developers-guide/authnz.html#_generate_an_auth_token)

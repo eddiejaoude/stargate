@@ -17,3 +17,10 @@ An open source data gateway.
 
 - Typescript
 - Stargate
+
+### What is Stargate?
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2ltVf2EscmM
+" target="_blank"><img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+

@@ -9,6 +9,7 @@ An open source data gateway.
 
 **Technology Used:**
 - TypeScript
+- StarGate
 
 ## Phase 1 Goals
 

@@ -84,10 +84,3 @@ For more detailed reference to the above points, refer <a href="https://www.conv
 For major changes, you are welcomed to open an issue  about what you would like to contribute. Enhancements will be appreciated.
 
 #### All the Best!🥇
-
-<p align = "center">
-
-<a href="https://github.com/eddiejaoude"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/eddiejaoude/stargate)
-
-</p>

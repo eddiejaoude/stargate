@@ -42,7 +42,7 @@ cd stargate
 ```
 **5.** Create a new branch:
 ```bash
-git checkout -b YourBranchName
+git checkout -b <YourBranchName>
 ```
 
 **6.** Make changes in source code.
@@ -50,7 +50,7 @@ git checkout -b YourBranchName
 **7.** Stage your changes and commit
 
 ```bash
-git add .
+git add <file1,file2....>
 ```
 ```bash
 git commit -m "<your_commit_message>"
@@ -59,7 +59,7 @@ git commit -m "<your_commit_message>"
 **8.** Push your local commits to the remote repo.
 
 ```bash
-git push origin YourBranchName
+git push origin <YourBranchName>
 ```
 
 **9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
@@ -72,17 +72,13 @@ git push origin YourBranchName
 
 #### Here's a list of some good to have points, that can add more value to your contribution logs.
 
-- Use the present tense (example: "Add feature" and not "Added feature")
-- Use the imperative mood (example: "Move item to...", instead of "Moves item to...")
-- Limit the first line (also called subject line) to 50 characters or less
-- Capitalize the subject line
-- Separate subject from body with a blank line
-- Do not end the subject line with a period
-- Wrap the body at 72 characters
-- Use the body to explain what, why, vs, and how
-- Reference issues and pull requests liberally after the first line
-
-For more detailed reference to the above points, refer here: https://chris.beams.io/posts/git-commit.
+- fix: a commit of the type fix patches a bug in your codebase (this correlates with PATCH in semantic versioning).
+- feat: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in semantic versioning).
+- BREAKING CHANGE: a commit that has a footer BREAKING CHANGE:, or appends a ! after the type/scope, introduces a breaking API change (correlating with MAJOR in semantic           versioning). A BREAKING CHANGE can be part of commits of any type.
+- types other than fix: and feat: are allowed, for example @commitlint/config-conventional (based on the the Angular convention) recommends build:, chore:, ci:, docs:, style:,     refactor:, perf:, test:, and others.
+- footers other than BREAKING CHANGE: <description> may be provided and follow a convention similar to git trailer format.
+ 
+For more detailed reference to the above points, refer <a href="https://www.conventionalcommits.org/en/v1.0.0/">here</a>
 
 ## 💥 Issues:
 For major changes, you are welcomed to open an issue  about what you would like to contribute. Enhancements will be appreciated.
@@ -91,7 +87,7 @@ For major changes, you are welcomed to open an issue  about what you would like 
 
 <p align = "center">
 
-<a href="https://github.com/muthuannamalai12"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
+<a href="https://github.com/eddiejaoude"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/eddiejaoude/stargate)
 
 </p>

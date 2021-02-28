@@ -2,7 +2,7 @@
 
 ![GitHub custom open for collaboration](https://img.shields.io/badge/Open%20For-Collaboration-brightgreen?style=for-the-badge)
 
-Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
+Refer to the following articles on the basics of Git and Github. You can also contact the Project Mentors, in case you are stuck:
 
 
 - [Getting started with Git and GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
@@ -17,11 +17,11 @@ Refer to the following articles on the basics of Git and Github and can also con
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Take a look at the Existing [Issues](https://github.com/eddiejaoude/stargate) or create your own Issues!
+- Take a look at the existing [Issues](https://github.com/eddiejaoude/stargate) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
+- Fork the Repo and create a branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
-- Add Screenshots to help us know what this Script is all about.
+- Add screenshots to help us know what this script is all about.
 
 
 ## ⭐HOW TO MAKE A PULL REQUEST:
@@ -64,13 +64,13 @@ git push origin <YourBranchName>
 
 **9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**10.** **Congratulations!** Sit and relax, you've made your contribution to [Stargate](https://github.com/eddiejaoude/stargate) project.
+**10.** **Congratulations!** Sit and relax, you've made your contribution to the[Stargate](https://github.com/eddiejaoude/stargate) project.
 
-***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
+***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they add value, or they will suggest any required changes.***
 
 ## Style Guides for Git Commit Messages:memo:
 
-#### Here's a list of some good to have points, that can add more value to your contribution logs.
+### Here's a list of some good to have points, that can add more value to your contribution logs.
 
 - fix: a commit of the type fix patches a bug in your codebase (this correlates with PATCH in semantic versioning).
 - feat: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in semantic versioning).
@@ -81,6 +81,6 @@ git push origin <YourBranchName>
 For more detailed reference to the above points, refer <a href="https://www.conventionalcommits.org/en/v1.0.0/">here</a>
 
 ## 💥 Issues:
-For major changes, you are welcomed to open an issue  about what you would like to contribute. Enhancements will be appreciated.
+For major changes, you are welcomed to open an issue about what you would like to contribute. Enhancements will be appreciated.
 
-#### All the Best!🥇
+All the Best!🥇

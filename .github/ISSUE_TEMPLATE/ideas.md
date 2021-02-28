@@ -2,7 +2,7 @@
 name: Ideas
 about: Have a new idea/feature for the bot?
 title: ''
-labels: enhancement
+labels: ''
 assignees: ''
 
 ---

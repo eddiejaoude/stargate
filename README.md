@@ -1,6 +1,6 @@
 # Stargate
 
-#### An open source data gateway.
+#### An Open Source Data Gateway
 
 [![stargate](http://img.youtube.com/vi/2ltVf2EscmM/0.jpg)](http://www.youtube.com/watch?v=2ltVf2EscmM "https://stargate.io/assets/images/explainer-cover.png")
 

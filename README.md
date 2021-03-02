@@ -23,5 +23,5 @@
 
 ### Technologies Used 
 
-- Typescript
-- Stargate
+- [DiscordJS](https://discordjs.guide) with Typescript
+- [Stargate](http://stargate.io)

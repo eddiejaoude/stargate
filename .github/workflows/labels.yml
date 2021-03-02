@@ -1,8 +1,8 @@
 name: Import labels
 on:
   push:
-    branches:
-      - eddiejaoude-issue-56
+    paths:
+      - 'docs/labels.json'
 
 jobs:
   labels:
@@ -24,12 +24,8 @@ jobs:
       - name: install deps
         run: npm ci
 
-      - name: check label file for change
-        uses: pheel/path-watcher-action@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          paths: 'docs/labels.json'
-      - if: steps.modified.outputs.modified
+      - name: import labels
+        if: github.ref == 'refs/heads/main'
         run: |
           npx ghlbl -o eddiejaoude -r stargate -t ${{ secrets.GITHUB_TOKEN }} -d
           npx ghlbl -o eddiejaoude -r stargate -t ${{ secrets.GITHUB_TOKEN }} -i docs/labels.json

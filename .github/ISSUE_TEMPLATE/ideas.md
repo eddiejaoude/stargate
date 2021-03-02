@@ -1,6 +1,6 @@
 ---
 name: Ideas
-about: Have a new idea/feature for the bot?
+about: Have a new idea/feature for the project?
 title: ''
 labels: ''
 assignees: ''

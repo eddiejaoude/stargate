@@ -21,7 +21,11 @@
 - CRUD usage of Stargate
 - Discord Bot (bio, social links, timezone)
 
-### Technologies Used 
+## Technologies Used 
 
 - [DiscordJS](https://discordjs.guide) with Typescript
 - [Stargate](http://stargate.io)
+
+## Docs
+
+- How to edit project [Labels](docs/labels.md)

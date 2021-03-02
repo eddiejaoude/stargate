@@ -2,11 +2,11 @@
 
 <table border="0">
   <tr>
-    <td>
+    <td align="center">
       Stargate is a data gateway deployed between client applications and a database. It's built with extensibility as a first-class citizen and makes it easy to use a database for any application workload by adding plugin support for new APIs, data types, and access methods.
       For more information about how to use Stargate, visit <a href="https://stargate.io/">Stargate.io</a>
     </td>
-    <td>
+    <td align="center">
       YouTube video of Stargate
       <a href="http://www.youtube.com/watch?v=2ltVf2EscmM">
         <img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" alt="YouTube thumbmnail for Stargate" />

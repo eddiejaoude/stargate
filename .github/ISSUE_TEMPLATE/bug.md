@@ -1,6 +1,6 @@
 ---
 name: Bug
-about: To report a bug found in the bot's working.
+about: To report a bug found in the project's working.
 title: ''
 labels: ''
 assignees: ''

@@ -1,15 +1,23 @@
-# Stargate
-An open source data gateway.
+# Discord bot using Stargate
 
-> Stargate is a data gateway deployed between client applications and a database. It's built with extensibility as a first-class citizen and makes it easy to use a database for any application workload by adding plugin support for new APIs, data types, and access methods.
-
-- For information about how to use Stargate, visit [stargate.io](https://stargate.io/)
-
-**Discord bot using Stargate**
+<table border="0">
+  <tr>
+    <td>
+      Stargate is a data gateway deployed between client applications and a database. It's built with extensibility as a first-class citizen and makes it easy to use a database for any application workload by adding plugin support for new APIs, data types, and access methods.
+      For more information about how to use Stargate, visit <a href="https://stargate.io/">Stargate.io</a>
+    </td>
+    <td>
+      YouTube video of Stargate
+      <a href="http://www.youtube.com/watch?v=2ltVf2EscmM">
+        <img src="http://img.youtube.com/vi/2ltVf2EscmM/0.jpg" alt="YouTube thumbmnail for Stargate" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Phase 1 Goals
 
-- Video tutorial 5-10min of using Stargate (serverless)
+- A video tutorial (ideally, 5-10 min) on how to use Stargate (serverless)
 - CRUD usage of Stargate
 - Discord Bot (bio, social links, timezone)
 
@@ -23,5 +31,5 @@ An open source data gateway.
 
 ### Technologies Used 
 
-- Typescript
-- Stargate
+- [DiscordJS](https://discordjs.guide) with Typescript
+- [Stargate](http://stargate.io)

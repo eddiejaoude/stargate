@@ -28,4 +28,5 @@
 
 ## Docs
 
+- [Project board v0.1](https://github.com/eddiejaoude/stargate/projects/1) of `to do`, `in progress`, `done`
 - How to edit project [Labels](docs/labels.md)

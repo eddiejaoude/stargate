@@ -2,7 +2,7 @@ name: Import labels
 on:
   push:
     branches:
-      - eddiejaoude-issue-56
+      - main
 
 jobs:
   labels:

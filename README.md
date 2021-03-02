@@ -21,10 +21,17 @@
 - CRUD usage of Stargate
 - Discord Bot (bio, social links, timezone)
 
-## Technologies Used 
+## Technologies Used
 
 - [DiscordJS](https://discordjs.guide) with Typescript
 - [Stargate](http://stargate.io)
+
+## Quickstart
+
+1. clone project `git clone <git-url>`
+1. navigate into the project `cd <project-name>`
+1. install dependencies `npm install`
+1. install husky helpers `npm run prepare`
 
 ## Docs
 

@@ -4,9 +4,10 @@
   "description": "A discord bot maybe?",
   "main": "./prod/index.js",
   "scripts": {
-    "prebuild": "rm -rf ./prod",
     "build": "tsc",
     "lint": "eslint src",
+    "prebuild": "rm -rf ./prod",
+    "prepare": "husky install",
     "start": "node ./prod/index.js",
     "test": "echo 'No tests yet.'"
   },
@@ -27,6 +28,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.21.0",

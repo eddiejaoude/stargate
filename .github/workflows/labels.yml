@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - eddiejaoude-issue-56
-    paths:
-      - 'docs/labels.json'
 
 jobs:
   labels:
@@ -26,8 +24,12 @@ jobs:
       - name: install deps
         run: npm ci
 
-      - name: clear existing labels
-        run: npx ghlbl -o eddiejaoude -r stargate -t ${{ secrets.GITHUB_TOKEN }} -d
-
-      - name: import labels from json
-        run: npx ghlbl -o eddiejaoude -r stargate -t ${{ secrets.GITHUB_TOKEN }} -i docs/labels.json
+      - name: check label file for change
+        uses: pheel/path-watcher-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          paths: 'docs/labels.json'
+      - if: steps.modified.outputs.modified
+        run: |
+          npx ghlbl -o eddiejaoude -r stargate -t ${{ secrets.GITHUB_TOKEN }} -d
+          npx ghlbl -o eddiejaoude -r stargate -t ${{ secrets.GITHUB_TOKEN }} -i docs/labels.json

@@ -1,0 +1,25 @@
+## Commits
+
+> The Conventional Commits specification is a lightweight convention on top of commit messages. It provides an easy set of rules for creating an explicit commit history; which makes it easier to write automated tools on top of. This convention dovetails with SemVer, by describing the features, fixes, and breaking changes made in commit messages.
+
+The commit message should be structured as follows:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### Examples
+
+- Basic `docs: correct spelling of CHANGELOG`
+- Basic with scope `feat(lang): add polish language`
+
+More information can be found https://www.conventionalcommits.org/en/v1.0.0/#examples
+
+
+### Notes
+
+Husky should check your commit messages, if these error the commit will not be made.

@@ -21,6 +21,16 @@
 - CRUD usage of Stargate
 - Discord Bot (bio, social links, timezone)
 
+
+## Reproducing locally
+
+- Fork this repo
+- `git clone https://github.com/<your-username>/stargate`
+- `cp .env.example .env`
+- Add the respective env-vars to the .env file
+  - [Generating Discord Bot Token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#keeping-your-token-safe)
+  - [Making AUTH token for Stargate](https://stargate.io/docs/stargate/1.0/developers-guide/authnz.html#_generate_an_auth_token)
+
 ## Technologies Used 
 
 - [DiscordJS](https://discordjs.guide) with Typescript

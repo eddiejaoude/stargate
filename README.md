@@ -15,11 +15,62 @@
   </tr>
 </table>
 
-## Phase 1 Goals
+## Phase 1
 
-- A video tutorial (ideally, 5-10 min) on how to use Stargate (serverless)
+### Goals
+
+A video tutorial on how to use Stargate serverless
+
+Features:
+
 - CRUD usage of Stargate
 - Discord Bot (bio, social links, timezone)
+- 5-10mins edited video
+
+### Challenges
+
+- Cassandra is associated with being "scary"
+- People using what they are used to even if the wrong tool for the job
+- People use what they hear most for example Mongo or an equivalent in the frontend space React
+
+### Storytelling
+
+- That it is not anymore difficult than similar alternatives
+- Simple and quick to use at hackathons and build prototypes
+- Scalable so that enterprise projects can use it too
+- Serverless is an affordable option for everyone (also has a free tier)
+- Stargate is open source and can grow and scale with the project
+
+### Problem
+
+- Awareness of Stargate
+- Cassandra scares people, usually perceived as being "difficult" or "hard"
+- Educating people on the benefits of using Stargate
+
+### Solution
+
+- Short / concise video (5-10mins)
+- 1min social teaser video
+- Include what is Stargate serverless
+- Build a simple Discord bot, to get/set user details and read/write to DB using Stargate serverless (bio, socials)
+
+### Vision
+
+- Easily digestible content
+- More projects on Github using Stargate
+- Clear and engaging message
+- Lowering the barrier to entry
+- Low cost of usage
+- Community excited about it
+
+### Impact
+
+- Evergreen content
+- Searchable content
+- Consise / digestible content for everyone to get started
+- Community building their own projects with Stargate serverless
+
+![DataStax Discord Bot v0.1](https://user-images.githubusercontent.com/624760/110018509-416c3200-7d1f-11eb-8f1b-444557401906.png)
 
 ## Technologies Used 
 

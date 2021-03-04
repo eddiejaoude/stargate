@@ -2,8 +2,8 @@
 name: Ideas
 about: Have a new idea/feature for the project?
 title: ''
-labels: ''
-assignees: ''
+labels: '🚦 status: awaiting triage'
+assignees: 'eddiejaoude'
 
 ---
 

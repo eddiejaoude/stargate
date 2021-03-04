@@ -2,8 +2,8 @@
 name: Docs
 about: Found a typo in docs? You can use this one!
 title: ''
-labels: ''
-assignees: ''
+labels: '🚦 status: awaiting triage'
+assignees: 'eddiejaoude'
 
 ---
 

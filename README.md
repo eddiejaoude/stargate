@@ -80,14 +80,14 @@ Features:
 ## Quickstart
 
 1. fork the project
-1. clone project `git clone https://github.com/<YOUR-USERNAME>/stargate`
-1. navigate into the project `cd stargate`
-1. `cp .env.example .env`
-1. add the respective env-vars to the .env file
-  - [generating Discord bot token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#keeping-your-token-safe)
-  - [making AUTH token for Stargate](https://stargate.io/docs/stargate/1.0/developers-guide/authnz.html#_generate_an_auth_token)
-1. install dependencies `npm install`
-1. install husky helpers `npm run prepare`
+2. clone project `git clone https://github.com/<YOUR-USERNAME>/stargate`
+3. navigate into the project `cd stargate`
+4. `cp .env.example .env`
+5. add the respective env-vars to the .env file
+    - [generating Discord bot token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#keeping-your-token-safe)
+    - [making AUTH token for Stargate](https://stargate.io/docs/stargate/1.0/developers-guide/authnz.html#_generate_an_auth_token)
+6. install dependencies `npm install`
+7. install husky helpers `npm run prepare`
 
 ## Docs
 

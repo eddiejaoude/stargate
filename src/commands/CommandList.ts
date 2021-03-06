@@ -1,5 +1,5 @@
-import { ComamndInt } from "../interfaces/CommandInt";
+import { CommandInterface } from "../interfaces/CommandInterface";
 import { help } from "./general/help";
 import { ping } from "./general/ping";
 
-export const CommandList: ComamndInt[] = [ping, help];
+export const CommandList: CommandInterface[] = [ping, help];

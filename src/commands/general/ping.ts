@@ -1,6 +1,6 @@
-import { ComamndInt } from "../../interfaces/CommandInt";
+import { CommandInterface } from "../../interfaces/CommandInterface";
 
-export const ping: ComamndInt = {
+export const ping: CommandInterface = {
   name: "ping",
   description: "Pings the bot.",
   command: async (message) => {

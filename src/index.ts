@@ -1,12 +1,12 @@
 import { Client } from "discord.js";
 import { CommandHandler } from "./commands/CommandHandler";
-import { BotConfigInt } from "./interfaces/BotConfigInt";
+import { BotConfigInterface } from "./interfaces/BotConfigInterface";
 
 const stargateBot = new Client();
 
 const botToken = process.env.DISCORD_BOT_TOKEN;
 
-const botConfig: BotConfigInt = {
+const botConfig: BotConfigInterface = {
   // grabs the prefix from the env, falls back to default if missing
   prefix: process.env.PREFIX || "!stargate",
 };

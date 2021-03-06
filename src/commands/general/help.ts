@@ -1,8 +1,8 @@
 import { MessageEmbed } from "discord.js";
-import { ComamndInt } from "../../interfaces/CommandInt";
+import { CommandInterface } from "../../interfaces/CommandInterface";
 import { CommandList } from "../CommandList";
 
-export const help: ComamndInt = {
+export const help: CommandInterface = {
   name: "help",
   description: "Returns information on the available bot commands",
   parameters: [

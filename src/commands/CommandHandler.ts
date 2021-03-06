@@ -1,10 +1,10 @@
 import { Message } from "discord.js";
-import { BotConfigInt } from "../interfaces/BotConfigInt";
+import { BotConfigInterface } from "../interfaces/BotConfigInterface";
 import { CommandList } from "./CommandList";
 
 export const CommandHandler = async (
   message: Message,
-  config: BotConfigInt
+  config: BotConfigInterface
 ): Promise<void> => {
   const { prefix } = config;
   const { content } = message;

@@ -17,7 +17,7 @@ Refer to the following articles on the basics of Git and Github. You can also co
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Take a look at the existing [Issues](https://github.com/eddiejaoude/stargate) or create your own Issues!
+- Take a look at the existing [Issues](https://github.com/eddiejaoude/stargate/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.

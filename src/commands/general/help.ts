@@ -40,7 +40,9 @@ export const help: ComamndInt = {
 
     const commandListString = CommandList.map(
       (command) => `\`${command.name}\``
-    ).join(" - ");
+    )
+      .sort()
+      .join(" - ");
     helpEmbed.setTitle("Available Commands");
     helpEmbed.setDescription(commandListString);
 

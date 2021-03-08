@@ -2,13 +2,13 @@
   "name": "stargate",
   "version": "0.0.0",
   "description": "A discord bot maybe?",
-  "main": "./prod/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "eslint src",
-    "prebuild": "rm -rf ./prod",
+    "prebuild": "rm -rf ./dist",
     "prepare": "if test \"$HUSKY\" != \"0\" ; then husky install ; fi",
-    "start": "node ./prod/index.js",
+    "start": "node ./dist/index.js",
     "test": "echo 'No tests yet.'"
   },
   "repository": {

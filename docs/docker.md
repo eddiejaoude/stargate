@@ -3,7 +3,7 @@
 ### Run from GitHub Registry
 
 ```
-docker run -p 3000:3000 -d ghcr.io/ediejaoude/stargate:latest
+docker run -p 3000:3000 -d ghcr.io/eddiejaoude/stargate:latest
 ```
 
 #### Build locally

@@ -72,7 +72,7 @@ Features:
 
 ![DataStax Discord Bot v0.1](https://user-images.githubusercontent.com/624760/110018509-416c3200-7d1f-11eb-8f1b-444557401906.png)
 
-## Technologies Used 
+## Technologies Used
 
 - [DiscordJS](https://discordjs.guide) with Typescript
 - [Stargate](http://stargate.io)
@@ -92,4 +92,4 @@ Features:
 ## Docs
 
 - [Project board v0.1](https://github.com/eddiejaoude/stargate/projects/1) of `to do`, `in progress`, `done`
-- How to edit project [Labels](docs/labels.md)
+- Full docs at [docs/README.md](docs/README.md)

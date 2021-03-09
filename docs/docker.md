@@ -3,7 +3,7 @@
 ### Run from GitHub Registry
 
 ```
-docker run -p 3000:3000 -d ghcr.io/eddiejaoude/stargate:latest
+docker run -p 3000:3000 --name stargatebot -d ghcr.io/eddiejaoude/stargate:latest
 ```
 
 #### Build locally
@@ -15,7 +15,7 @@ docker build -t eddiejaoude/stargate .
 #### Run from local build
 
 ```
-docker run -p 3000:3000 -d eddiejaoude/stargate
+docker run -p 3000:3000 --name stargatebot -d eddiejaoude/stargate
 ```
 
 #### Logs

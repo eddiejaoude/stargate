@@ -1,0 +1,29 @@
+name: Docs
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout source files
+        uses: actions/checkout@v2
+
+      - name: install ruby
+        uses: ruby/setup-ruby@v1
+
+      - run: |
+          gem install asciidoctor
+          gem install coderay
+
+      - name: build docs
+        run: npm run docs
+
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: build

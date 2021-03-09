@@ -1,7 +1,4 @@
-= Docs
-
-:toc:
-:source-highlighter: coderay
+Discord bot using Stargate
 
 include::commits.adoc[]
 

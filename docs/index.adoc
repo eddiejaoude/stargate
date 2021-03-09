@@ -1,0 +1,5 @@
+= Docs
+:toc:
+:source-highlighter: coderay
+
+include::README.adoc[]

@@ -10,7 +10,7 @@
     "prepare": "husky install",
     "start": "node ./prod/index.js",
     "test": "echo 'No tests yet.'",
-    "docs": "asciidoctor -D build/ docs/README.adoc"
+    "docs": "asciidoctor -D build/ docs/index.adoc"
   },
   "repository": {
     "type": "git",

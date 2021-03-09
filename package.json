@@ -9,7 +9,8 @@
     "prebuild": "rm -rf ./prod",
     "prepare": "husky install",
     "start": "node ./prod/index.js",
-    "test": "echo 'No tests yet.'"
+    "test": "echo 'No tests yet.'",
+    "docs": "asciidoctor -D build/ docs/README.adoc"
   },
   "repository": {
     "type": "git",

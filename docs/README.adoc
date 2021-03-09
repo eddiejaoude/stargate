@@ -1,0 +1,8 @@
+= Docs
+
+:toc:
+:source-highlighter: coderay
+
+include::commits.adoc[]
+
+include::labels.adoc[]

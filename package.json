@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint src",
-    "docs": "asciidoctor -D build/ docs/index.adoc"
+    "docs": "asciidoctor -D build/ docs/index.adoc",
     "prebuild": "rm -rf ./dist",
     "prepare": "if test \"$HUSKY\" != \"0\" ; then husky install ; fi",
     "start": "node ./dist/index.js",

@@ -1,4 +1,4 @@
 .env
-/prod/
+/dist/
 /node_modules/
 build/

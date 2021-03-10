@@ -1,0 +1,15 @@
+name: Node.js CI
+on:
+  push:
+    branches:
+      - issue-76
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Conventional Changelog Action
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          github-token: ${{ secrets.github_token }}

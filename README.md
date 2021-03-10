@@ -92,4 +92,13 @@ Features:
 ## Docs
 
 - [Project board v0.1](https://github.com/eddiejaoude/stargate/projects/1) of `to do`, `in progress`, `done`
-- Full docs at [docs/README.md](docs/README.md)
+
+Full docs available [docs/README.md](docs/README.md)
+
+### Building the docs
+
+Install [AsciiDoctor](https://docs.asciidoctor.org/asciidoctor/latest/install/) and [CodeRay](https://docs.asciidoctor.org/asciidoctor/latest/syntax-highlighting/coderay/).
+
+```
+npm run docs
+```

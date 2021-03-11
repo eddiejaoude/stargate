@@ -1,4 +1,24 @@
-# 0.2.0 (2021-03-10)
+# [0.3.0](https://github.com/eddiejaoude/stargate/compare/v0.2.0...v0.3.0) (2021-03-11)
+
+
+### Bug Fixes
+
+* action name ([#76](https://github.com/eddiejaoude/stargate/issues/76)) ([010aee7](https://github.com/eddiejaoude/stargate/commit/010aee71259638052cd525d57ac4d0a12165cf64))
+* bad merge ([#64](https://github.com/eddiejaoude/stargate/issues/64)) ([7efa7eb](https://github.com/eddiejaoude/stargate/commit/7efa7eb8ef06172a382f00f2ddfa84dd128d8452))
+* build correct parent ([#64](https://github.com/eddiejaoude/stargate/issues/64)) ([ceabdca](https://github.com/eddiejaoude/stargate/commit/ceabdca8badda602823af1f55a818b95dbee2e64))
+* removed action event ([#64](https://github.com/eddiejaoude/stargate/issues/64)) ([4afe47a](https://github.com/eddiejaoude/stargate/commit/4afe47ac5a1305ab85f7943f074d961f1e4b8841))
+* ruby version ([#64](https://github.com/eddiejaoude/stargate/issues/64)) ([322ac58](https://github.com/eddiejaoude/stargate/commit/322ac5818e47d45e201eb72045b42ae8c9c3afea))
+
+
+### Features
+
+* build docs ([#64](https://github.com/eddiejaoude/stargate/issues/64)) ([6a1aab8](https://github.com/eddiejaoude/stargate/commit/6a1aab8428df51aee4882a5549b36c2e093fe5ce))
+* deploy docs ([#64](https://github.com/eddiejaoude/stargate/issues/64)) ([bc4614e](https://github.com/eddiejaoude/stargate/commit/bc4614e445cd660a9b7d17f28f7598ac3739212c))
+* deploy docs ([#64](https://github.com/eddiejaoude/stargate/issues/64)) ([b1f473f](https://github.com/eddiejaoude/stargate/commit/b1f473ffb6a32672056ca79345b3e98c5b5e011b))
+
+
+
+# [0.2.0](https://github.com/eddiejaoude/stargate/compare/0d45eff2ec4b69b023bf8571934389e6d49db1d6...v0.2.0) (2021-03-10)
 
 
 ### Bug Fixes

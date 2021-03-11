@@ -1,26 +1,26 @@
-### Docker
+== Docker
 
-### Run from GitHub Registry
+=== Run from GitHub Registry
 
 ```
 docker run -p 3000:3000 --name stargatebot -d ghcr.io/eddiejaoude/stargate:latest
 ```
 
-#### Build locally
+=== Build locally
 
 ```
 docker build -t eddiejaoude/stargate .
 ```
 
-#### Run from local build
+=== Run from local build
 
 ```
 docker run -p 3000:3000 --name stargatebot -d eddiejaoude/stargate
 ```
 
-#### Logs
+=== Logs
 
 To see the logs of your container
 
 1. `docker ps`
-1. `docker logs <container-id>`
+2. `docker logs <container-id>`

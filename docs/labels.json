@@ -82,5 +82,9 @@
   {
     "name": "🧹 status: ticket work required",
     "color": "666666"
+  },
+  {
+    "name": "🔢 points: 1",
+    "color": "62A1A6"
   }
 ]

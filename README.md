@@ -93,7 +93,7 @@ Features:
 
 - [Project board v0.1](https://github.com/eddiejaoude/stargate/projects/1) of `to do`, `in progress`, `done`
 
-Full docs available [docs/README.md](docs/README.md)
+Full docs deployed to https://eddiejaoude.github.io/stargate/ and available in the repo at [docs/README.adoc](docs/README.adoc)
 
 ### Building the docs
 

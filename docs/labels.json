@@ -82,5 +82,29 @@
   {
     "name": "🧹 status: ticket work required",
     "color": "666666"
+  },
+  {
+    "name": "🔢 points: 1",
+    "color": "62A1A6"
+  },
+  {
+    "name": "🔢 points: 2",
+    "color": "62A1A6"
+  },
+  {
+    "name": "🔢 points: 3",
+    "color": "62A1A6"
+  },
+  {
+    "name": "🔢 points: 5",
+    "color": "62A1A6"
+  },
+  {
+    "name": "🔢 points: 8",
+    "color": "62A1A6"
+  },
+  {
+    "name": "🔢 points: 13",
+    "color": "62A1A6"
   }
 ]

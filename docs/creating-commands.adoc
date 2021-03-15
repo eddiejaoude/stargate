@@ -1,0 +1,59 @@
+== Creating Commands
+
+To create a command, you will need to work in the `/src/commands` directory.
+
+**NO commands should go directly in the `/src/commands` directory. All commands should go within a nested category folder, such as `/src/commands/general`.**
+
+=== Interface
+
+All commands take a standard structure, which is defined in `/src/interfaces/CommandInterface.ts`. This allows TypeScript to apply type checking to ensure our commands have the same, consistent structure.
+
+The interface is as follows:
+
+```ts
+{
+  name: string;
+  description: string;
+  parameters?: string[];
+  command: (message: Message, config?: BotConfigInterface) => Promise<void>;
+}
+```
+
+- `name` is the name of the command, used by a user to call it.
+- `description` is a short explanation of what the command does. This is displayed in the `help` command when a user queries your specific command.
+- `parameters` is an *optional* property, which lists the parameters the command expects. This is an array of strings, where each string represents a single parameter. Parameter strings should take the format `\`<parameter name>\` (optional|required) - description`.
+- `command` is the command function. As defined in the interface, the command function takes one or two parameters. The first, `message`, is the Discord message object which is required. The second is the bot config object, which is optional. When you write the command function, note that **all commands are asyncronous** and should use the `async` keyword.
+
+=== Loading Your Command
+
+Commands are manually loaded in to the bot. Once your command is written, you can import the command to the `/src/commands/CommandList.ts` file. Add the command to the array and the bot will be able to load it.
+
+=== Example Command
+
+Here is an example of a new command file. This command would go in `src/commands/general/example.ts`.
+
+```ts
+import { CommandInterface } from "../../interfaces/CommandInterface";
+
+export const example: CommandInterface = {
+  name: "example",
+  description: "This is an example command",
+  parameters: ["`<exampleParam> (required) - does example stuff"],
+  command: async (message) => {
+    console.log("Command logic goes here!");
+  },
+};
+```
+
+Then, in the `src/commands/CommandList.ts` file:
+
+```ts
+import { CommandInterface } from "../interfaces/CommandInterface";
+// all the other command imports are here...
+import { example } from "./general/example";
+
+export const CommandList: CommandInterface[] = [
+    // all the other command variables are in this array
+    example,
+];
+```

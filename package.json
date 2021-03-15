@@ -6,10 +6,10 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint src",
-    "docs": "asciidoctor -D build/ docs/index.adoc",
     "prebuild": "rm -rf ./dist",
     "prepare": "if test \"$HUSKY\" != \"0\" ; then husky install ; fi",
-    "start": "node ./dist/index.js",
+    "start": "node -r dotenv/config ./prod/index.js",
+    "docs": "asciidoctor -D build/ docs/index.adoc",
     "test": "echo 'No tests yet.'"
   },
   "repository": {
@@ -31,6 +31,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
+    "@types/node": "^14.14.31",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "eslint": "^7.21.0",
@@ -41,5 +42,9 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
   }
 }

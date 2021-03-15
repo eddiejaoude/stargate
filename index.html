@@ -533,6 +533,13 @@ table.CodeRay td.code{padding:0 0 0 .75em}
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
+<li><a href="#_creating_commands">Creating Commands</a>
+<ul class="sectlevel2">
+<li><a href="#_interface">Interface</a></li>
+<li><a href="#_loading_your_command">Loading Your Command</a></li>
+<li><a href="#_example_command">Example Command</a></li>
+</ul>
+</li>
 <li><a href="#_commits">Commits</a>
 <ul class="sectlevel2">
 <li><a href="#_examples">Examples</a></li>
@@ -560,6 +567,93 @@ table.CodeRay td.code{padding:0 0 0 .75em}
 <div class="sectionbody">
 <div class="paragraph">
 <p>Discord bot using Stargate</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_creating_commands">Creating Commands</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To create a command, you will need to work in the <code>/src/commands</code> directory.</p>
+</div>
+<div class="paragraph">
+<p><strong>NO commands should go directly in the <code>/src/commands</code> directory. All commands should go within a nested category folder, such as <code>/src/commands/general</code>.</strong></p>
+</div>
+<div class="sect2">
+<h3 id="_interface">Interface</h3>
+<div class="paragraph">
+<p>All commands take a standard structure, which is defined in <code>/src/interfaces/CommandInterface.ts</code>. This allows TypeScript to apply type checking to ensure our commands have the same, consistent structure.</p>
+</div>
+<div class="paragraph">
+<p>The interface is as follows:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="ts">{
+  name: string;
+  description: string;
+  parameters?: string[];
+  command: (message: Message, config?: BotConfigInterface) =&gt; Promise&lt;void&gt;;
+}</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>name</code> is the name of the command, used by a user to call it.</p>
+</li>
+<li>
+<p><code>description</code> is a short explanation of what the command does. This is displayed in the <code>help</code> command when a user queries your specific command.</p>
+</li>
+<li>
+<p><code>parameters</code> is an <strong>optional</strong> property, which lists the parameters the command expects. This is an array of strings, where each string represents a single parameter. Parameter strings should take the format <code>\</code>&lt;parameter name&gt;\` (optional|required) - description`.</p>
+</li>
+<li>
+<p><code>command</code> is the command function. As defined in the interface, the command function takes one or two parameters. The first, <code>message</code>, is the Discord message object which is required. The second is the bot config object, which is optional. When you write the command function, note that <strong>all commands are asyncronous</strong> and should use the <code>async</code> keyword.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_loading_your_command">Loading Your Command</h3>
+<div class="paragraph">
+<p>Commands are manually loaded in to the bot. Once your command is written, you can import the command to the <code>/src/commands/CommandList.ts</code> file. Add the command to the array and the bot will be able to load it.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_example_command">Example Command</h3>
+<div class="paragraph">
+<p>Here is an example of a new command file. This command would go in <code>src/commands/general/example.ts</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="ts">import { CommandInterface } from &quot;../../interfaces/CommandInterface&quot;;
+
+export const example: CommandInterface = {
+  name: &quot;example&quot;,
+  description: &quot;This is an example command&quot;,
+  parameters: [&quot;`&lt;exampleParam&gt; (required) - does example stuff&quot;],
+  command: async (message) =&gt; {
+    console.log(&quot;Command logic goes here!&quot;);
+  },
+};</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then, in the <code>src/commands/CommandList.ts</code> file:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="ts">import { CommandInterface } from &quot;../interfaces/CommandInterface&quot;;
+// all the other command imports are here...
+import { example } from &quot;./general/example&quot;;
+
+export const CommandList: CommandInterface[] = [
+    // all the other command variables are in this array
+    example,
+];</code></pre>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -720,7 +814,7 @@ table.CodeRay td.code{padding:0 0 0 .75em}
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-03-15 17:04:10 UTC
+Last updated 2021-03-15 17:21:05 UTC
 </div>
 </div>
 </body>

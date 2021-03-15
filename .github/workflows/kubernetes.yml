@@ -1,0 +1,20 @@
+name: deploy to kubernetes
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: deploy to kube cluster
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out the repo
+        uses: actions/checkout@v2
+      - uses: Azure/k8s-set-context@v1
+        with:
+          kubeconfig: ${{ secrets.KUBE_CONFIG }}
+      - uses: Azure/k8s-deploy@v1.4
+        with:
+          namespace: 'default'
+          manifests: kubernetes/deployment.yaml
+          images: 'ghcr.io/eddiejaoude/stargate:latest'
+          kubectl-version: 'latest'

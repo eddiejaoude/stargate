@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stargate-deployment
+  labels:
+    app: stargate
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stargate
+  template:
+    metadata:
+      labels:
+        app: stargate
+    spec:
+      containers:
+      - name: stargate
+        image: ghcr.io/eddiejaoude/stargate:latest
+        imagePullPolicy: Always
+        env:
+          - name: DISCORD_BOT_TOKEN
+            valueFrom:
+              secretKeyRef:
+                name: discord-bot-secret
+                key: DISCORD_BOT_TOKEN

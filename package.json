@@ -8,9 +8,11 @@
     "lint": "eslint src",
     "prebuild": "rm -rf ./dist",
     "prepare": "if test \"$HUSKY\" != \"0\" ; then husky install ; fi",
-    "start": "node -r dotenv/config ./prod/index.js",
+    "start": "npm run build && node -r dotenv/config ./dist/index.js",
+    "start:prod": "node ./dist/index.js",
     "docs": "asciidoctor -D build/ docs/index.adoc",
-    "test": "echo 'No tests yet.'"
+    "test": "echo 'No tests yet.'",
+    "version": "echo $npm_package_version"
   },
   "repository": {
     "type": "git",

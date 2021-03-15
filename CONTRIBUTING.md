@@ -7,10 +7,10 @@ Refer to the following articles on the basics of Git and Github. You can also co
 
 - [Getting started with Git and GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [Cloning a Repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 
-***If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).***
+***If you don't have Git on your machine, [install it](https://help.github.com/articles/set-up-git/).***
 
 ## 💥 How to Contribute
 
@@ -64,7 +64,7 @@ git push origin <YourBranchName>
 
 **9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**10.** **Congratulations!** Sit and relax, you've made your contribution to the[Stargate](https://github.com/eddiejaoude/stargate) project.
+**10.** **Congratulations!** Sit and relax, you've made your contribution to the [Stargate](https://github.com/eddiejaoude/stargate) project.
 
 ***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they add value, or they will suggest any required changes.***
 

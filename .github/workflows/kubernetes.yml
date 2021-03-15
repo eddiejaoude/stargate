@@ -2,7 +2,7 @@ name: deploy to kubernetes
 on:
   push:
     branches:
-      - main
+      - issue-72
   workflow_dispatch:
 
 jobs:

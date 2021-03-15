@@ -1,0 +1,7 @@
+Discord bot using Stargate
+
+include::commits.adoc[]
+
+include::labels.adoc[]
+
+include::docker.adoc[]

@@ -1,4 +1,4 @@
-## Labels
+== Labels
 
 > To facilitate the community in finding ways to contribute that match their experiences and skillsets, we have developed a comprehensive system for labelling issues and PRs. This is an introduction to this standard labelling scheme.
 
@@ -10,8 +10,22 @@
 
 Using the label convention from https://opensource.creativecommons.org/contributing-code/repo-labels/
 
-### Usage
+=== Usage
 
-Using the library [xavierchow/github-label-template](https://github.com/xavierchow/github-label-template) to export/import labels with the file `labels.json`
+Using the library https://github.com/xavierchow/github-label-template[xavierchow/github-label-template] to export/import labels with the file `labels.json`
 
 To add a new label, update the `labels.json` file and the GitHub Action will do the rest.
+
+[source,json,linenums,highlight=2..5]
+----
+[
+    {
+        "name": "good first issue",
+        "color": "7f0799"
+    },
+    {
+        "name": "help wanted",
+        "color": "7f0799"
+    }
+]
+----

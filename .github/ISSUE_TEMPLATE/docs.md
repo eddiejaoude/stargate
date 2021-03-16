@@ -4,7 +4,6 @@ about: Found a typo in docs? You can use this one!
 title: ''
 labels: '🚦 status: awaiting triage'
 assignees: 'eddiejaoude'
-
 ---
 
 **Description**
@@ -15,7 +14,7 @@ assignees: 'eddiejaoude'
 
 <!-- Please add a screenshot if applicable -->
 
-**Additional Context**  <!-- Optional -->  
+**Additional Context**  <!-- Optional -->
 
 <!-- Add any other context about the problem here. -->
 

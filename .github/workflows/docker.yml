@@ -50,6 +50,8 @@ jobs:
         uses: martinbeentjes/npm-get-version-action@master
       - name: version dockerfile
         run: sed -i 's/v0.0.0/v${{ steps.package-version.outputs.current-version}}/g' Dockerfile
+      - name: test
+        run: cat Dockerfile
       - name: set up Docker builder
         uses: docker/setup-buildx-action@v1
       - name: log into GitHub Container Registry

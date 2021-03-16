@@ -1,9 +1,7 @@
 name: deploy to kubernetes
 on:
-  push:
-    branches:
-      - issue-72
-  workflow_dispatch:
+  registry_package:
+    types: [published]
 
 jobs:
   deploy:
@@ -12,6 +10,9 @@ jobs:
     steps:
       - name: check out the repo
         uses: actions/checkout@v2
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@master
       - uses: Azure/k8s-set-context@v1
         with:
           kubeconfig: ${{ secrets.KUBE_CONFIG }}
@@ -19,5 +20,5 @@ jobs:
         with:
           namespace: 'default'
           manifests: kubernetes/deployment.yaml
-          images: 'ghcr.io/eddiejaoude/stargate:latest'
+          images: 'ghcr.io/eddiejaoude/stargate:v${{ steps.package-version.outputs.current-version}}'
           kubectl-version: 'latest'

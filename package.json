@@ -1,6 +1,6 @@
 {
   "name": "stargate",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "description": "A discord bot maybe?",
   "main": "./dist/index.js",
   "scripts": {

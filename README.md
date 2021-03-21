@@ -1,5 +1,8 @@
 # Discord bot using Stargate
 
+
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/eddiejaoude/stargate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/eddiejaoude/stargate/alerts/)
+
 <table border="0">
   <tr>
     <td align="center">

@@ -43,7 +43,7 @@
 | [![Docs status](https://github.com/eddiejaoude/stargate/workflows/Docs/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/docs.yml) | Docs status | Pushes to doc/ repository | checkout source files, duild doc files, deploy |
 | [![Labels status](https://github.com/eddiejaoude/stargate/workflows/Import%20labels/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/labels.yml) | Labels status | Pushes to doc/labels.json | checkout source files, install deps, import labels |
 | [![Node CI status](https://github.com/eddiejaoude/stargate/workflows/Node.js%20CI/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/node-ci.yml) | Node CI status | Pushes & Pull Request | Checkout source files, install dependencies, lint source files, verify build, run tests |
-| [![Stale issues and PRs status](https://github.com/eddiejaoude/stargate/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/stale.yml) | Stale issues and PRs status | Scheduled at `30 1 * * *` | Updates issue / PR messages & labels |
+| [![Stale issues and PRs status](https://github.com/eddiejaoude/stargate/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/stale.yml) | Stale issues and PRs status | Iterval of every 30 minutes | Updates issue / PR messages & labels |
 
 ## Quickstart
 

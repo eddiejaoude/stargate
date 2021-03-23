@@ -3,13 +3,11 @@
   "version": "0.5.3",
   "description": "A discord bot maybe?",
   "main": "./dist/index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
     "lint": "eslint src",
-    "prebuild": "rm -rf ./dist",
     "prepare": "if test \"$HUSKY\" != \"0\" ; then husky install ; fi",
-    "start": "npm run build && node -r dotenv/config ./dist/index.js",
-    "start:prod": "node ./dist/index.js",
+    "start": "node -r dotenv/config ./src/index.js",
     "docs": "asciidoctor -D build/ docs/index.adoc",
     "test": "echo 'No tests yet.'"
   },
@@ -45,6 +43,7 @@
     "typescript": "^4.2.2"
   },
   "dependencies": {
+    "@astrajs/collections": "0.0.12",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
   }

@@ -69,7 +69,7 @@ Features:
 
 ### Storytelling
 
-- That it is not anymore difficult than similar alternatives
+- That it is not any more difficult than similar alternatives
 - Simple and quick to use at hackathons and build prototypes
 - Scalable so that enterprise projects can use it too
 - Serverless is an affordable option for everyone (also has a free tier)

@@ -4,7 +4,6 @@
   :robot: Discord bot using Stargate :robot:
 </h1>
 
-
 <div align="center">
 
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/eddiejaoude/stargate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/eddiejaoude/stargate/alerts/)
@@ -14,6 +13,7 @@
 ![Docs status](https://img.shields.io/github/license/eddiejaoude/stargate)
 
 </div>
+
 <table border="0">
   <tr>
     <td align="center">

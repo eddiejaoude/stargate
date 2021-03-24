@@ -14,14 +14,6 @@
 
 </div>
 
-[![Changelog status](https://github.com/eddiejaoude/stargate/workflows/Changelog/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/changelog.yml)
-[![CodeQL status](https://github.com/eddiejaoude/stargate/workflows/CodeQL/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/codeql.yml)
-[![Docker Publish status](https://github.com/eddiejaoude/stargate/workflows/Publish%20Docker%20image/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/docker.yml)
-[![Docs status](https://github.com/eddiejaoude/stargate/workflows/Docs/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/docs.yml)
-[![Labels status](https://github.com/eddiejaoude/stargate/workflows/Import%20labels/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/labels.yml)
-[![Node CI status](https://github.com/eddiejaoude/stargate/workflows/Node.js%20CI/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/node-ci.yml)
-[![Stale issues and PRs status](https://github.com/eddiejaoude/stargate/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/stale.yml)
-
 <table border="0">
   <tr>
     <td align="center">

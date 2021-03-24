@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-  :robot: Discord bot using Stargate :robot:
+  :robot: Discord bot using <a href="https://eddiejaoude.krtra.com/t/CiEQRydj4GdT">Stargate</a> :robot:
 </h1>
 
 <div align="center">
@@ -28,6 +28,10 @@
     </td>
   </tr>
 </table>
+
+## Free sign up
+
+Sign up with GitHub login for [FREE on DataStax Stargate](https://eddiejaoude.krtra.com/t/CiEQRydj4GdT) and get a NoSQL DB up in minutes with approximately `30 million reads, 5 million writes, and 40GB of storage per month for free`
 
 ## Technologies Used
 

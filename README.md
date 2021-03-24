@@ -1,7 +1,18 @@
-# Discord bot using Stargate
 
+
+<h1 align="center">
+  :robot: Discord bot using Stargate :robot:
+</h1>
+
+<div align="center">
 
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/eddiejaoude/stargate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/eddiejaoude/stargate/alerts/)
+![Issues](https://img.shields.io/github/issues/eddiejaoude/stargate)
+![Forks](https://img.shields.io/github/forks/eddiejaoude/stargate)
+![Stars](https://img.shields.io/github/stars/eddiejaoude/stargate)
+![Docs status](https://img.shields.io/github/license/eddiejaoude/stargate)
+
+</div>
 
 [![Changelog status](https://github.com/eddiejaoude/stargate/workflows/Changelog/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/changelog.yml)
 [![CodeQL status](https://github.com/eddiejaoude/stargate/workflows/CodeQL/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/codeql.yml)
@@ -30,6 +41,17 @@
 
 - [DiscordJS](https://discordjs.guide) with Typescript
 - [Stargate](http://stargate.io)
+
+## GitHub actions
+| Tag | Name | Triggers | Results |
+| :--- |  :---  |  :--- | :--- |
+| [![Changelog status](https://github.com/eddiejaoude/stargate/workflows/Changelog/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/changelog.yml) | Change Log | Pushes to main branch | Updates release tag |
+| [![CodeQL status](https://github.com/eddiejaoude/stargate/workflows/CodeQL/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/codeql.yml) | CodeQL Status | Pushes & Pull Request | Checkout repository, installs dependencies, build files, perform analysis |
+| [![Docker Publish status](https://github.com/eddiejaoude/stargate/workflows/Publish%20Docker%20image/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/docker.yml) | Docker Publish Status | Published releases | build, test, push to registory, deploy |
+| [![Docs status](https://github.com/eddiejaoude/stargate/workflows/Docs/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/docs.yml) | Docs status | Pushes to doc/ repository | checkout source files, duild doc files, deploy |
+| [![Labels status](https://github.com/eddiejaoude/stargate/workflows/Import%20labels/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/labels.yml) | Labels status | Pushes to doc/labels.json | checkout source files, install deps, import labels |
+| [![Node CI status](https://github.com/eddiejaoude/stargate/workflows/Node.js%20CI/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/node-ci.yml) | Node CI status | Pushes & Pull Request | Checkout source files, install dependencies, lint source files, verify build, run tests |
+| [![Stale issues and PRs status](https://github.com/eddiejaoude/stargate/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/stale.yml) | Stale issues and PRs status | Iterval of every 30 minutes | Updates issue / PR messages & labels |
 
 ## Quickstart
 

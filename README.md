@@ -29,14 +29,10 @@
   </tr>
 </table>
 
-## Free sign up
-
-Sign up with GitHub login for [FREE on DataStax Stargate](https://eddiejaoude.krtra.com/t/CiEQRydj4GdT) and get a NoSQL DB up in minutes with approximately `30 million reads, 5 million writes, and 40GB of storage per month for free`
-
 ## Technologies Used
 
 - [DiscordJS](https://discordjs.guide) with Typescript
-- [Stargate](http://stargate.io)
+- [Stargate](http://stargate.io) - sign up with GitHub login for [FREE on DataStax Stargate](https://eddiejaoude.krtra.com/t/CiEQRydj4GdT) and get a NoSQL DB up in minutes with approximately `30 million reads, 5 million writes, and 40GB of storage per month for free`
 
 ## GitHub actions
 | Tag | Name | Triggers | Results |

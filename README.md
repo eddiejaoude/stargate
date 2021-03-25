@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-  :robot: Discord bot using <a href="https://eddiejaoude.krtra.com/t/CiEQRydj4GdT">Stargate</a> :robot:
+  :robot: Discord bot using <a href="http://links.eddiejaoude.io/t/CiEQRydj4GdT">Stargate</a> :robot:
 </h1>
 
 <div align="center">
@@ -18,7 +18,6 @@
   <tr>
     <td align="center">
       Stargate is a data gateway deployed between client applications and a database. It's built with extensibility as a first-class citizen and makes it easy to use a database for any application workload by adding plugin support for new APIs, data types, and access methods.
-      For more information about how to use Stargate, visit <a href="https://stargate.io/">Stargate.io</a>
     </td>
     <td align="center">
       YouTube video of Stargate
@@ -32,7 +31,7 @@
 ## Technologies Used
 
 - [DiscordJS](https://discordjs.guide) with Typescript
-- [Stargate](http://stargate.io) - sign up with GitHub login for [FREE on DataStax Stargate](https://eddiejaoude.krtra.com/t/CiEQRydj4GdT) and get a NoSQL DB up in minutes with approximately `30 million reads, 5 million writes, and 40GB of storage per month for free`
+- Stargate - sign up with GitHub login for [FREE on DataStax Stargate](http://links.eddiejaoude.io/t/CiEQRydj4GdT) and get a NoSQL DB up in minutes with approximately `30 million reads, 5 million writes, and 40GB of storage per month for free` (Docker container also available)
 
 ## GitHub actions
 | Tag | Name | Triggers | Results |

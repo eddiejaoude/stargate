@@ -30,7 +30,7 @@
 
 ## Technologies Used
 
-- [DiscordJS](https://discordjs.guide) with Typescript
+- [DiscordJS](https://discordjs.guide) with [Typescript](https://www.typescriptlang.org)
 - Stargate - sign up with GitHub login for [FREE on DataStax Stargate](http://links.eddiejaoude.io/t/CiEQRydj4GdT) and get a NoSQL DB up in minutes with approximately `30 million reads, 5 million writes, and 40GB of storage per month for free` (Docker container also available)
 
 ## GitHub actions

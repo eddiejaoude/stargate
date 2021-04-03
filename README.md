@@ -44,6 +44,10 @@
 | [![Node CI status](https://github.com/eddiejaoude/stargate/workflows/Node.js%20CI/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/node-ci.yml) | Node CI status | Pushes & Pull Request | Checkout source files, install dependencies, lint source files, verify build, run tests |
 | [![Stale issues and PRs status](https://github.com/eddiejaoude/stargate/workflows/Mark%20stale%20issues%20and%20pull%20requests/badge.svg)](https://github.com/eddiejaoude/stargate/actions/workflows/stale.yml) | Stale issues and PRs status | Iterval of every 30 minutes | Updates issue / PR messages & labels |
 
+## Screenshot
+
+![screenshot](https://user-images.githubusercontent.com/624760/113471843-0d3b7c80-9457-11eb-9c0c-29abb907c40d.png)
+
 ## Quickstart
 
 1. Fork the project

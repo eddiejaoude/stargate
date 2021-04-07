@@ -51,7 +51,7 @@
 ## Quickstart
 
 1. Fork the project
-2. Clone project using `git clone https://github.com/<YOUR-USERNAME>/stargate`
+2. Clone project using `git clone git@github.com:<YOUR-USERNAME>/stargate.git`
 3. Navigate into the project using `cd stargate`
 4. Run `cp .env.example .env`
 5. Add the respective env-vars to the .env file

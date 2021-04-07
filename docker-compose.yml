@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  stargate:
+    image: "stargateio/stargate-3_11:v1.0.0"
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+      - "8082:8082"
+      - "127.0.0.1:9042:9042"
+    environment:
+      - CLUSTER_NAME=stargate
+      - CLUSTER_VERSION=3.11
+      - DEVELOPER_MODE=true

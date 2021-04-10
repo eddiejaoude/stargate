@@ -1,4 +1,4 @@
-# 🤝***First time contributing? We will help you out.*** 👍
+# 🤝 ***First time contributing? We will help you out.*** 👍
 
 ![GitHub custom open for collaboration](https://img.shields.io/badge/Open%20For-Collaboration-brightgreen?style=for-the-badge)
 
@@ -24,7 +24,7 @@ Refer to the following articles on the basics of Git and Github. You can also co
 - Add screenshots to help us know what this script is all about.
 
 
-## ⭐HOW TO MAKE A PULL REQUEST:
+## ⭐ HOW TO MAKE A PULL REQUEST:
 
 **1.** Fork [this](https://github.com/eddiejaoude/stargate) repository.
 Click on the <a href="https://github.com/eddiejaoude/stargate"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
@@ -62,13 +62,13 @@ git commit -m "<your_commit_message>"
 git push origin <YourBranchName>
 ```
 
-**9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+**9.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
 **10.** **Congratulations!** Sit and relax, you've made your contribution to the [Stargate](https://github.com/eddiejaoude/stargate) project.
 
 ***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they add value, or they will suggest any required changes.***
 
-## Style Guides for Git Commit Messages:memo:
+## :memo: Style Guides for Git Commit Messages
 
 ### Here's a list of some good to have points, that can add more value to your contribution logs.
 

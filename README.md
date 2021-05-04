@@ -58,7 +58,7 @@
     - [generating Discord bot token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#keeping-your-token-safe)
     - [making AUTH token for Stargate](https://stargate.io/docs/stargate/1.0/developers-guide/authnz.html#_generate_an_auth_token)
 6. Install dependencies `npm install`
-7. Install husky helpers `npm run prepare`
+7. Run the docker container for stargate (not this repo) with `docker-compose up`
 
 ## Docs
 

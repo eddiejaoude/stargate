@@ -124,9 +124,13 @@ Features:
 
 - Evergreen content
 - Searchable content
-- Consise / digestible content for everyone to get started
+- Concise / digestible content for everyone to get started
 - Community building their own projects with Stargate serverless
 
 ![DataStax Discord Bot v0.1](https://user-images.githubusercontent.com/624760/110018509-416c3200-7d1f-11eb-8f1b-444557401906.png)
 
 ### Made with :heart: by an awesome open source community!
+
+---
+
+Workshop host at Bay Area largest hackathon for women and non-binary individuals!

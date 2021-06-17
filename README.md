@@ -1,5 +1,3 @@
-
-
 <h1 align="center">
   :robot: Discord bot using <a href="http://links.eddiejaoude.io/t/CiEQRydj4GdT">Stargate</a> :robot:
 </h1>

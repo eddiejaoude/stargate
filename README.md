@@ -130,7 +130,3 @@ Features:
 ![DataStax Discord Bot v0.1](https://user-images.githubusercontent.com/624760/110018509-416c3200-7d1f-11eb-8f1b-444557401906.png)
 
 ### Made with :heart: by an awesome open source community!
-
----
-
-Workshop host at Bay Area largest hackathon for women and non-binary individuals!

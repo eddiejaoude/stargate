@@ -4,7 +4,7 @@ export const ping: CommandInterface = {
   name: "ping",
   description: "Pings the bot.",
   command: async (message) => {
-    await const reply = message.reply("Pinging...");
+    const reply = await message.reply("Pinging...");
 
     const ping = `${message.channel.type !== 'dm' ? `${message.author},` : ''} Pong!`;
     const roundTrip = `The message round-trip took ${(reply.editedTimestamp || reply.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}ms.`;

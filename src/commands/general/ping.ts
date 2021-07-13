@@ -10,6 +10,8 @@ export const ping: CommandInterface = {
     const roundTrip = `The message round-trip took ${(reply.editedTimestamp || reply.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}ms.`;
     const ws = `${message.client.ws.ping ? `The heartbeat ping is ${Math.round(message.client.ws.ping)}ms.` : ''}`;
 
-    return reply.edit(`${ping} ${roundTrip} ${ws}`);
+    await reply.edit(`${ping} ${roundTrip} ${ws}`);
+    
+    return
   },
 };

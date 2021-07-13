@@ -6,12 +6,21 @@ export const ping: CommandInterface = {
   command: async (message) => {
     const reply = await message.reply("Pinging...");
 
-    const ping = `${message.channel.type !== 'dm' ? `${message.author},` : ''} Pong!`;
-    const roundTrip = `The message round-trip took ${(reply.editedTimestamp || reply.createdTimestamp) - (message.editedTimestamp || message.createdTimestamp)}ms.`;
-    const ws = `${message.client.ws.ping ? `The heartbeat ping is ${Math.round(message.client.ws.ping)}ms.` : ''}`;
+    const ping = `${
+      message.channel.type !== "dm" ? `${message.author},` : ""
+    } Pong!`;
+    const roundTrip = `The message round-trip took ${
+      (reply.editedTimestamp || reply.createdTimestamp) -
+      (message.editedTimestamp || message.createdTimestamp)
+    }ms.`;
+    const ws = `${
+      message.client.ws.ping
+        ? `The heartbeat ping is ${Math.round(message.client.ws.ping)}ms.`
+        : ""
+    }`;
 
     await reply.edit(`${ping} ${roundTrip} ${ws}`);
-    
-    return
+
+    return;
   },
 };

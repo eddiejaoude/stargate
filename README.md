@@ -5,10 +5,6 @@
 <div align="center">
 
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/eddiejaoude/stargate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/eddiejaoude/stargate/alerts/)
-![Issues](https://img.shields.io/github/issues/eddiejaoude/stargate)
-![Forks](https://img.shields.io/github/forks/eddiejaoude/stargate)
-![Stars](https://img.shields.io/github/stars/eddiejaoude/stargate)
-![Docs status](https://img.shields.io/github/license/eddiejaoude/stargate)
 
 </div>
 

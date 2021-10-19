@@ -7,7 +7,7 @@ export const ping: CommandInterface = {
     const reply = await message.reply("Pinging...");
 
     const ping = `${
-      message.channel.type !== "dm" ? `${message.author},` : ""
+      message.channel.type !== "dm" ? `<@${message.author}>,` : ""
     } Pong!`;
     const roundTrip = `The message round-trip took ${
       (reply.editedTimestamp || reply.createdTimestamp) -
